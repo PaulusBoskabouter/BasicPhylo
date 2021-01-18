@@ -1,0 +1,150 @@
+cluster	growth-rate	color
+Hoyosella_altamirensis	Outgroup	Outgroup	black
+M_abscessus_bolletii	M. abscessus-cholonae complex	Rapid	red
+M_abscessus_massiliense	M. abscessus-cholonae complex	Rapid	red
+M_abscessus	M. abscessus-cholonae complex	Rapid	red
+M_immunogenum	M. abscessus-cholonae complex	Rapid	red
+M_franklinii	M. abscessus-cholonae complex	Rapid	red
+M_saopaulense	M. abscessus-cholonae complex	Rapid	red
+M_salmoniphilum	M. abscessus-cholonae complex	Rapid	red
+M_chelonae	M. abscessus-cholonae complex	Rapid	red
+M_stephanolepidis	M. abscessus-cholonae complex	Rapid	red
+M_smegmatis	M. fortuitum-smegmatis group	Rapid	orange
+M_goodii	M. fortuitum-smegmatis group	Rapid	orange
+M_wolinskyi	M. fortuitum-smegmatis group	Rapid	orange
+M_mageritense	M. fortuitum-smegmatis group	Rapid	orange
+M_brisbanense	M. fortuitum-smegmatis group	Rapid	orange
+M_aquaticum	M. fortuitum-smegmatis group	Rapid	orange
+M_houstonense	M. fortuitum-smegmatis group	Rapid	orange
+M_setense	M. fortuitum-smegmatis group	Rapid	orange
+M_peregrinum	M. fortuitum-smegmatis group	Rapid	orange
+M_fortuitum_fortuitum	M. fortuitum-smegmatis group	Rapid	orange
+M_senegalense	M. fortuitum-smegmatis group	Rapid	orange
+M_conceptionense	M. fortuitum-smegmatis group	Rapid	orange
+M_farcinogenes	M. fortuitum-smegmatis group	Rapid	orange
+M_septicum	M. fortuitum-smegmatis group	Rapid	orange
+M_neworleansense	M. fortuitum-smegmatis group	Rapid	orange
+M_porcinum	M. fortuitum-smegmatis group	Rapid	orange
+M_hodleri	Special	Rapid	pink
+M_boenickei	Special	Rapid	pink
+M_nonchromogenicus	M. terrae complex 	Slow	springgreen3
+M_heraklionensis	M. terrae complex	Slow	springgreen3
+M_longobardus	M. terrae complex	Slow	springgreen3
+M_hiberniae	M. terrae complex	Slow	springgreen3
+M_engbaekii	M. terrae complex	Slow	springgreen3
+M_minnesotensis	M. terrae complex	Slow	springgreen3
+M_arupensis	M. terrae complex	Slow	springgreen3
+M_terrae	M. terrae complex	Slow	springgreen3
+M_kumamotonensis	M. terrae complex	Slow	springgreen3
+M_senuensis	M. terrae complex	Slow	springgreen3
+M_algericus	M. terrae complex	Slow	springgreen3
+M_celatum	M. celatum group	Slow	gold1
+M_branderi	M. celatum group	Slow	gold1
+M_kyorinense	M. celatum group	Slow	gold1
+M_fragae	M. celatum group	Slow	gold1
+M_shimoidei	M. celatum group	Slow	gold1
+M_noviomagense	M. xenopi group	Slow	purple
+M_heckeshornense	M. xenopi group	Slow	purple
+M_xenopi	M. xenopi group	Slow	purple
+M_ulcerans	pathogens group	Slow	deepskyblue
+M_pseudoshottsii	pathogens group	Slow	deepskyblue
+M_marinum_Europe	pathogens group	Slow	deepskyblue
+M_intermedium	pathogens group	Slow	deepskyblue
+M_gordonae	pathogens group	Slow	deepskyblue
+M_asiaticum	pathogens group	Slow	deepskyblue
+M_kubicae	pathogens group	Slow	deepskyblue
+M_shinjukuense	pathogens group	Slow	deepskyblue
+M_lacus	pathogens group	Slow	deepskyblue
+M_tuberculosis	pathogens group	Slow	deepskyblue
+M_decipiens	pathogens group	Slow	deepskyblue
+M_riyadhense	pathogens group	Slow	deepskyblue
+M_szulgai	pathogens group	Slow	deepskyblue
+M_angelicum	pathogens group	Slow	deepskyblue
+M_gastri	pathogens group	Slow	deepskyblue
+M_persicum	pathogens group	Slow	deepskyblue
+M_kansasii	pathogens group	Slow	deepskyblue
+M_triplex	M. simiae complex	Slow	tan4
+M_genavense	M. simiae complex	Slow	tan4
+M_florentinum	M. simiae complex	Slow	tan4
+M_lentiflavum	M. simiae complex	Slow	tan4
+M_simiae	M. simiae complex	Slow	tan4
+M_sherrisii	M. simiae complex	Slow	tan4
+M_chimaera	M. avium complex	Slow	gray
+M_intracellulare_yongonense	M. avium complex	Slow	gray
+M_intracellulare	M. avium complex	Slow	gray
+M_paraintracellulare	M. avium complex	Slow	gray
+M_marseillense	M. avium complex	Slow	gray
+M_avium_avium	M. avium complex	Slow	gray
+M_bouchedurhonense	M. avium complex	Slow	gray
+M_timonense	M. avium complex	Slow	gray
+M_arosiense	M. avium complex	Slow	gray
+M_mantenii	M. avium complex	Slow	gray
+M_colombiense	M. avium complex	Slow	gray
+M_vulneris	M. avium complex	Slow	gray
+M_europaeum	Ungrouped	Slow	darkslategray
+M_paraseoulense	Ungrouped	Slow	darkslategray
+M_nebraskense	Ungrouped	Slow	darkslategray
+M_parascrofulaceum	Ungrouped	Slow	darkslategray
+M_scrofulaceum	Ungrouped	Slow	darkslategray
+M_palustre	Ungrouped	Slow	darkslategray
+M_heidelbergense	Ungrouped	Slow	darkslategray
+M_malmoense	Ungrouped	Slow	darkslategray
+M_alsense	Ungrouped	Slow	darkslategray
+M_interjectum	Ungrouped	Slow	darkslategray
+M_paraense	Ungrouped	Slow	darkslategray
+M_parmense	Ungrouped	Slow	darkslategray
+M_bohemicum	Ungrouped	Slow	darkslategray
+M_saskatchewanense	Ungrouped	Slow	darkslategray
+M_conspicuum	Ungrouped	Slow	darkslategray
+M_talmoniae	Ungrouped	Slow	darkslategray
+M_haemophilum	Ungrouped	Slow	darkslategray
+M_leprae	Ungrouped	Slow	darkslategray
+M_lepromatosis	Ungrouped	Slow	darkslategray
+M_brumae	Ungrouped	Rapid	darkslategray
+M_celeriflavum	Ungrouped	Rapid	darkslategray
+M_mucogenicum	Ungrouped	Rapid	darkslategray
+M_vanbaalenii	Ungrouped	Rapid	darkslategray
+M_pyrenivorans	Ungrouped	Rapid	darkslategray
+M_austroafricanum	Ungrouped	Rapid	darkslategray
+M_pallens	Ungrouped	Rapid	darkslategray
+M_neoaurum	Ungrouped	Rapid	darkslategray
+M_malmesburii	Ungrouped	Rapid	darkslategray
+M_duvalii	Ungrouped	Rapid	darkslategray
+M_koreensis	Ungrouped	Rapid	darkslategray
+M_aromaticivorans	Ungrouped	Rapid	darkslategray
+M_rutilum	Ungrouped	Rapid	darkslategray
+M_thermoresistibile	Ungrouped	Rapid	darkslategray
+M_chlorophenolicum	Ungrouped	Rapid	darkslategray
+M_vaccae	Ungrouped	Rapid	darkslategray
+M_obuense	Ungrouped	Rapid	darkslategray
+M_trivialis	Ungrouped	Rapid	darkslategray
+M_hassiacum	Ungrouped	Rapid	darkslategray
+M_monacense	Ungrouped	Rapid	darkslategray
+M_cosmeticum	Ungrouped	Rapid	darkslategray
+M_holsaticum	Ungrouped	Rapid	darkslategray
+M_gilvum_Spyr1	Ungrouped	Rapid	darkslategray
+M_rufum	Ungrouped	Rapid	darkslategray
+M_agri	Ungrouped	Rapid	darkslategray
+M_iranicum	Ungrouped	Rapid	darkslategray
+M_fluoranthenivorans	Ungrouped	Rapid	darkslategray
+M_aurum	Ungrouped	Rapid	darkslategray
+M_insubricum	Ungrouped	Rapid	darkslategray
+M_llatzerense	Ungrouped	Rapid	darkslategray
+M_chubuense	Ungrouped	Rapid	darkslategray
+M_elephantis	Ungrouped	Rapid	darkslategray
+M_canariasense	Ungrouped	Rapid	darkslategray
+M_confluentis	Ungrouped	Rapid	darkslategray
+M_crocinum	Ungrouped	Rapid	darkslategray
+M_sphagni	Ungrouped	Rapid	darkslategray
+M_litorale	Ungrouped	Rapid	darkslategray
+M_bacteremicum	Ungrouped	Rapid	darkslategray
+M_grossiae	Ungrouped	Rapid	darkslategray
+M_doricum	Ungrouped	Rapid	darkslategray
+M_novocastrense	Ungrouped	Rapid	darkslategray
+M_diernhoferi	Ungrouped	Rapid	darkslategray
+M_parafortuitum	Ungrouped	Rapid	darkslategray
+M_moriokaense	Ungrouped	Rapid	darkslategray
+M_phlei	Ungrouped	Rapid	darkslategray
+M_rhodesiae	Ungrouped	Rapid	darkslategray
+M_tusciae	Ungrouped	Rapid	darkslategray
+M_fallax	Ungrouped	Rapid	darkslategray
