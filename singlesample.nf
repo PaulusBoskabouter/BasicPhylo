@@ -2,14 +2,14 @@
 
 
 // (Tool) params
-params.reads                = "$baseDir/data/raw_input/20070846401-3_MB_R{1,2}.fastq.gz"
+params.reads                = "$baseDir/data/raw_input/132273_R{1,2}.fastq.gz"
 params.outDir               = "$baseDir"
 // SKA Fastq
 params.kmer                 = "15"
 params.quality_score        = "20"
 params.coverage             = "4"
 // SKA Align
-params.proportion           = "1.0"
+params.proportion           = "0.3"
 // Iq Tree
 params.bootstrap            = "1000"
 params.contree              = "true"
@@ -83,7 +83,7 @@ process alignSplitFile{
 
     output:
     file "${filename}_variants.aln" into alignment
-    println("h")
+    
     script:
     filename = split_kmer.baseName
     
@@ -93,23 +93,7 @@ process alignSplitFile{
 }
 
 
-process iqTree{
-    conda 'bioconda::iqtree=2.0.3'
-    publishDir outDir + "/results/single_sample/${filename}/iqtree/", mode: 'copy'
-    input:
-    file(alignment_file) from alignment
 
-    output:
-    file "${outfile}" into tree_file
-
-
-    script:
-    filename = alignment_file.baseName.replace("_variants", "")
-    outfile = "${filename}.contree"
-    """
-    iqtree -s ${alignment_file} -st DNA -m GTR+G+ASC -T AUTO -bb 1000 -pre ${filename}
-    """
-}
 process iqTree{
     conda 'bioconda::iqtree=2.0.3'
     publishDir outDir + "/results/single_sample/${filename}/iqtree/", mode: 'copy'
@@ -123,10 +107,11 @@ process iqTree{
     script:
     filename = alignment_file.baseName.replace("_variants", "")
     if (contree.equals("true")){
-        outfile = "${alignment_file.baseName}.contree"
+    	println("hierzo")
+        outfile = "${filename}.contree"
     }
     else{
-	outfile = "${alignment_file.baseName}.treefile"
+	outfile = "${filename}.treefile"
         if (bootstrap.toInteger() == 0){
             """
             iqtree -s ${alignment_file} -st DNA -m GTR+G+ASC -T AUTO -pre ${filename}

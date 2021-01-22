@@ -25,8 +25,11 @@ def metadata(file, parameters):
     :return: dictionary with metadata of the run
     """
     tree_type = "Maximum Likelihood"
-    if parameters[5] == "true":
+    iterations = float(parameters[4])
+    if parameters[5] == "true" and iterations > 0:
         tree_type = "Consensus tree"
+    if iterations > 0 and iterations < 1000:
+    	parameters[4] = "1000"
     return {
         "sample": file.strip('.tsv'),
         "Run date": str(dt.datetime.now()),
