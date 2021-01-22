@@ -6,4 +6,4 @@ This github has been equipped with an example sample (please note that this samp
 
 1. Please make sure the latest version of NextFlow is installed on your device.
 2. Download the main branch.
-3. In your terminal, move to the folder and enter; nextflow singlesample.nf -C conda.config
+3. In your terminal, move to the installed folder and enter; nextflow singlesample.nf -C conda.config
