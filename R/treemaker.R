@@ -17,7 +17,6 @@ cluster <- read.table(file= args[6], sep="\t", stringsAsFactor=F)
 coloring <- c("Slow" = "white", "Rapid" = "gray14")
 for (row in 1:nrow(cluster)) {
   
-  #kleur <- cluster[row, "color"]
   coloring[cluster[row, "cluster"]] = cluster[row, "color"]
 }
 
