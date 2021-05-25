@@ -107,7 +107,6 @@ process iqTree{
     script:
     filename = alignment_file.baseName.replace("_variants", "")
     if (contree.equals("true")){
-    	println("hierzo")
         outfile = "${filename}.contree"
     }
     else{
